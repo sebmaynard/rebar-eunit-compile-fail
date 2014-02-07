@@ -1,0 +1,12 @@
+{application, apps1_gateway,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { apps1_gateway_app, []}},
+  {env, []}
+ ]}.
